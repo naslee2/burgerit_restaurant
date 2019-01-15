@@ -1,4 +1,5 @@
 import classes from './index.css';
 
-export default () => {
-  };
+$(document).ready(function() {
+
+});

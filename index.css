@@ -2,10 +2,19 @@ body{
     margin: 0;
 }
 
+#navbar{
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    background-color: #1d1d1d;
+    opacity: 0.5%;
+    position: fixed;
+}
+
 #home{
     background-image: url("./images/16992727.900000002_pexels-photo-1199958.jpeg");
     width: 100vw;
-    height: 100vh;
+    height: 1000px;
     background-repeat: flex;
     background-size: cover;
     /* background-position: center center; */
