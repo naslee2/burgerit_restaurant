@@ -176,7 +176,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./images/16992727.900000002_pexels-photo-1199958.jpeg":[["16992727.900000002_pexels-photo-1199958.bd73504d.jpeg","images/16992727.900000002_pexels-photo-1199958.jpeg"],"images/16992727.900000002_pexels-photo-1199958.jpeg"],"_css_loader":"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./images/16992727.900000002_pexels-photo-1199958.jpeg":[["16992727.900000002_pexels-photo-1199958.bd73504d.jpeg","images/16992727.900000002_pexels-photo-1199958.jpeg"],"images/16992727.900000002_pexels-photo-1199958.jpeg"],"./images/16962679.400000002_pexels-photo-750073.jpeg":[["16962679.400000002_pexels-photo-750073.957b767e.jpeg","images/16962679.400000002_pexels-photo-750073.jpeg"],"images/16962679.400000002_pexels-photo-750073.jpeg"],"./images/16971021.500000004_pexels-photo-745988.jpeg":[["16971021.500000004_pexels-photo-745988.23f94a88.jpeg","images/16971021.500000004_pexels-photo-745988.jpeg"],"images/16971021.500000004_pexels-photo-745988.jpeg"],"./images/16996266.400000002_menu-restaurant-vintage-table.jpg":[["16996266.400000002_menu-restaurant-vintage-table.8ec760cb.jpg","images/16996266.400000002_menu-restaurant-vintage-table.jpg"],"images/16996266.400000002_menu-restaurant-vintage-table.jpg"],"_css_loader":"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _index = _interopRequireDefault(require("./index.css"));
@@ -211,7 +211,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50587" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58949" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

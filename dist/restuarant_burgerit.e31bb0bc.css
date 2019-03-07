@@ -14,21 +14,22 @@ body{
 #home{
     background-image: url("16992727.900000002_pexels-photo-1199958.bd73504d.jpeg");
     width: 100vw;
-    height: 1000px;
+    height: 100vh;
     background-repeat: flex;
     background-size: cover;
+    object-fit: scale-down;
     /* background-position: center center; */
 }
 
 #about{
-    background-image: url();
+    background-image: url("16962679.400000002_pexels-photo-750073.957b767e.jpeg");
 }
 
 #menu{
-    background-image: url();
+    background-image: url("16971021.500000004_pexels-photo-745988.23f94a88.jpeg");
 }
 
 #menu{
-    background-image: url();
+    background-image: url("16996266.400000002_menu-restaurant-vintage-table.8ec760cb.jpg");
     
 }
