@@ -23,13 +23,18 @@ body{
 
 #about{
     background-image: url("16962679.400000002_pexels-photo-750073.957b767e.jpeg");
+    width: 100vw;
+    height: 100vh;
 }
 
 #menu{
     background-image: url("16971021.500000004_pexels-photo-745988.23f94a88.jpeg");
+    width: 100vw;
+    height: 100vh;
 }
 
 #menu{
     background-image: url("16996266.400000002_menu-restaurant-vintage-table.8ec760cb.jpg");
-    
+    width: 100vw;
+    height: 100vh;
 }
