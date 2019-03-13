@@ -183,7 +183,9 @@ var _index = _interopRequireDefault(require("./index.css"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-$(document).ready(function () {});
+$(document).ready(function () {
+  console.log("index.js works!");
+});
 },{"./index.css":"index.css"}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -211,7 +213,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56413" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57654" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
