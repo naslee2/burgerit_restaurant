@@ -2,6 +2,10 @@ body{
     margin: 0;
 }
 
+p{
+    margin: 0 0 0 0;
+}
+
 #navbar{
     height: 50px;
     width: 100%;
@@ -26,13 +30,17 @@ body{
     height: calc(100vh - 50px);
 }
 
+.home-card{
+    padding: 50px;
+}
+
 #menu{
     background-image: url("16971021.500000004_pexels-photo-745988.23f94a88.jpeg");
     width: 100vw;
     height: calc(100vh - 50px);
 }
 
-#menu{
+#contact{
     background-image: url("16996266.400000002_menu-restaurant-vintage-table.8ec760cb.jpg");
     width: 100vw;
     height: calc(100vh - 50px);
