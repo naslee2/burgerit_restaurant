@@ -30,8 +30,12 @@ p{
     height: calc(100vh - 50px);
 }
 
-.home-card{
-    padding: 50px;
+.card{
+    padding: 50px; 
+}
+
+.card p{
+
 }
 
 #menu{
