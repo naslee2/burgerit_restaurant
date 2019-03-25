@@ -185,6 +185,20 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 $(document).ready(function () {
   console.log("index.js works!");
+  $(".scrollLink").click(function (event) {
+    event.preventDefault();
+    $("html, body").animate({
+      scrollTop: $($(this).attr("href")).offset().top - 51
+    }, 500);
+  }); // $('a[href^="#"]').on('click', function(event) {
+  //     var target = $(this.getAttribute('href'));
+  //     if( target.length ) {
+  //         event.preventDefault();
+  //         $('html, body').stop().animate({
+  //             scrollTop: target.offset().top-59
+  //         }, 300);
+  //     }
+  //   });
 });
 },{"./index.css":"index.css"}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -213,7 +227,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49261" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60623" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
