@@ -16,8 +16,13 @@ p{
     color: white;
 }
 
-#navbar a{
-    text-decoration: none
+.scrollLink{
+    text-decoration: none;
+    color: white;
+}
+
+a.scrollLink:hover{
+    color: blue;
 }
 
 #home{
