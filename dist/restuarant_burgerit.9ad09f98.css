@@ -16,6 +16,10 @@ p{
     color: white;
 }
 
+#navbar a{
+    text-decoration: none
+}
+
 #home{
     background-image: url("16992727.900000002_pexels-photo-1199958.bd73504d.jpeg");
     width: 100vw;
