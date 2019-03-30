@@ -16,6 +16,13 @@ p{
     color: white;
 }
 
+#navbar span{
+    background-color: silver;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+}
+
 .scrollLink{
     text-decoration: none;
     color: white;
