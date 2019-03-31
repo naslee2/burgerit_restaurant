@@ -16,11 +16,9 @@ p{
     color: white;
 }
 
-#navbar span{
-    background-color: silver;
-    display: inline-block;
-    height: 50px;
-    width: 100px;
+#navbar-links{
+    margin-left: 40%;
+    margin-right: 40%;  
 }
 
 .scrollLink{
@@ -28,7 +26,7 @@ p{
     color: white;
 }
 
-a.scrollLink:hover{
+a.scrollLink:hover, span:hover{
     color: black;
 }
 
