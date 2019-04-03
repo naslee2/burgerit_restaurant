@@ -19,11 +19,20 @@ p{
 #navbar-links{
     margin-left: 40%;
     margin-right: 40%;  
+    
 }
 
 .scrollLink{
     text-decoration: none;
     color: white;
+}
+
+.hover-link{
+    display: inline-block;
+}
+
+.hover-link:hover{
+    background-color: white;
 }
 
 a.scrollLink:hover, span:hover{
