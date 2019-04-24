@@ -73,6 +73,9 @@ a.scrollLink:hover, span:hover{
     height: calc(100vh - 50px);
 }
 
-/* .card{
-
-} */
+.contact_card{
+   margin-left: 40%;
+   margin-right: 40%;
+   font-size: x-large;
+   color: white;
+}
